@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    padding:0px 30px;
+    background-color: #2f9e44;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px;
+}
+.recipie>p{
+    font-size: 20px;
+    color:#e9ecef;
+    padding-left: 70px;
+    
+}
+.side-nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-right:50px;
+}
+.side-nav >a{
+            text-decoration: none;
+            font-size:20px;
+            color:#e9ecef;
+            padding-right:30px;
+}
+
+/*----------------------------------TEXT_IMAGE-------------------------------------*/
+
+
+.text-image{
+    background-color:#d3f9d8;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    padding:30px 60px;
+}
+
+
+.text{
+    padding:60px;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    row-gap: 30px;
+    margin-left:30px;
+     
+}
+.text>h1{
+    font-size:64px;
+    line-height: 1;
+    letter-spacing: 0.8px;
+}
+.text>p{
+    font-size: 20px;
+    color:#495057;   
+}
+
+
+.start-btn{
+    background-color:#fd7e14 ;
+    color:#fff;
+    margin-right:5px;
+    font-size:14px;
+    border-radius: 5px;
+    padding:8px;
+    border:none;
+    font-style: bold;
+   
+}
+.learn-btn{
+    background-color:#cfff ;
+    color:black;
+    font-size:14px;
+    border-radius: 5px;
+    padding:8px;
+    border:none;
+    font-style: bold;
+   
+}
+.image{
+    position:relative;
+}
+
+.img-2{
+    position:absolute;
+    width:200px;
+    height:180px;
+    bottom:10%;
+    left:60%;
+    border-radius:6px;
+}
+.img-1{
+    margin:40px;
+    height:250px;
+    border-radius:6px;
+}
+
+/*-----------------------------------section---------------------------------------*/
+.sec-cont{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:3%;
+    gap:30px;
+    background-color:#f8f9fa;
+    
+}
+.cont-1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  padding:10px;
+  border:3px;
+  background-color:#ebfbee;
+  box-shadow:6px 6px 6px  rgba(0,0,0, 0.4);
+}
+.content-1{
+     background-color:#fff;
+     padding:10px;
+     
+}
+
+ 
+.sec-icon{
+    width:20px;
+    height:20px;
+    stroke:rgb(100, 224, 89);
+}
+.sec-img>img{
+    width:200px;
+    height:200px;
+}
+.align-icon {
+   display:flex;
+   flex-direction: column;
+}
+.align-icon div{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 10px;
+
+}
+
+.sec-text >button{
+    padding:5px;
+    border:none;
+    font-weight:bold;
+    font-size: 10px;
+    text-transform:uppercase ;
+    color:white;
+    border-radius: 5px;
+  
+
+}
+.sec-text >h4{
+    font-size:20px;
+    font-style:bold;
+    padding: 15px 0;
+
+}
+.sec-text >p{
+   
+    font-size:18px;
+}
+.vegan{
+    background-color: #2f9e44;
+}
+
+.paleo{
+    background-color:goldenrod;
+}
+
+.sec-text{
+   padding:10px;
+}
+.check{
+    width:15px;
+    height:15px;
+}
+
+
+
+.content-2>p{
+    padding:6px 8px;
+    font-size:18px;
+    font-style:bold;
+    display:block;
+}
+.diet{
+    font-size:24px;
+    padding-bottom:10px;
+}
+
+
+
+/*---------------------------------testimonials------------------------------------*/
+
+.testimonials{
+    background-color:#d3f9d8;
+}
+.test-text{
+    text-align: center;
+    font-size:32px;
+    padding-top:2%;
+}
+.contactinfo{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:40px;
+    padding: 3% 6%;
+}
+
+.block >p{
+    font-size:18px;
+    text-align: left;
+    padding:20px 0;
+}
+.contactinfo,.block,.Author{
+    font-size:14px;
+    text-align:center;
+}
+.block >img{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    cursor:pointer;
+}
+.block >img:hover{
+    transform:scale(1.2);
+}
+
+/*--------------------------------------------------lastblock---------------------------*/
+
+
+.last-info{
+    display:grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap:50px;
+    padding: 3% 20%;
+}
+.imp-info{
+    display:flex;
+    align-items: left;
+    justify-content: Left;
+    row-gap:10px;
+    flex-direction: column;
+}
+.imp-info >h4{
+    font-size:22px;
+    color:#495057;
+    font-style: bold;
+}
+.imp-info >p{
+    font-size:18px;
+    color:#0c0f13;   
+}
+.icon{
+    width:32px;
+    height:32px;
+    stroke:#6de683;
+}
+
+/*---------------------------------footer------------------------*/
+
+footer{
+    padding:8px;
+    text-align:center;
+    font-size:12px;
+    color:#fff;
+    font-style: bold;
+    background-color: #2f9e44 ;
+}
